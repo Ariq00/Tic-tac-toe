@@ -133,7 +133,7 @@ def computer_move(board):
 def minimax(board, depth, maximising_player):
     """Function which finds the optimal play for the computer and returns
      a list containing the optimal next move for the computer and its coordinates"""
-    if maximising_player:       # computer player
+    if maximising_player:  # computer player
         best_score = [0, 0, -inf]  # Note: (0,0) are arbitrary coordinates
         player = computer
     else:
